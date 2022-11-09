@@ -8,6 +8,8 @@ pipeline {
                   ls -l
                   cat f
                   cat g
+                  
+                  mvn --version
                 '''
             }
         }
